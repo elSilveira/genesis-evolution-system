@@ -4,6 +4,34 @@
 
 **URL**: https://lovable.dev/projects/cca4b8b8-a4fb-4d7d-bc99-83a9b617cca6
 
+## GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages. 
+
+### Setup Instructions
+
+1. **Enable GitHub Pages:**
+   - Go to your repository settings on GitHub
+   - Navigate to "Pages" section
+   - Select "GitHub Actions" as the source
+
+2. **Automatic Deployment:**
+   - Push your code to the `main` branch
+   - GitHub Actions will automatically build and deploy your site
+   - Your site will be available at: `https://[your-username].github.io/genesis-evolution-system/`
+
+3. **Manual Deployment (Optional):**
+   ```bash
+   npm install
+   npm run deploy
+   ```
+
+### Configuration
+
+- The project uses Vite with proper base path configuration for GitHub Pages
+- Client-side routing is handled with a 404.html fallback
+- The build output is automatically deployed to the `gh-pages` branch
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
